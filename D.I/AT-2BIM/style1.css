@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+img{
+    height: 50px;
+}
+header{
+    background-color: rgb(196, 228, 215);
+}
+h1{
+    margin-bottom: 5px;
+}
+body{
+    background-color: rgb(165, 202, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

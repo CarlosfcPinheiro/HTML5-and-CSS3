@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(165, 202, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+header{
+    background-color: rgb(196, 228, 215);
+}
+form{
+    text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

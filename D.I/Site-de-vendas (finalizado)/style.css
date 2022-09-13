@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+:root{
+    --cor1: #fffc6b;
+    --cor2: #ffB26B;
+    --cor3: #ff6B6D;
+    --cor4: #b8ff6b;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header {
+    min-height: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, var(--cor5), var(--cor4) );
+    background-color: var(--cor4);
+
+    font-family: cursive;
+}
+
+header > h1 {
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+header > nav {
+    text-decoration: none;
+    background-color: var(--cor3);
+    
+}
+
+header > nav > a:hover {
+    color: white;
+}
+
+main{
+    
+    max-width: 800px;
+    padding-top: 10px;
+    margin: auto;
+    padding: 10px;
+    min-height: 650px;
+
+    background-color: aliceblue;
+    text-align: justify;
+    font-family: cursive;
+   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.341);
+}
+
+.filter-card{
+    margin-bottom: 20px;
+}
+
+.content{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.produtos {
+    background-color: var(--cor3);
+    text-align: center;
+
+    min-width: 200px;
+    min-height: -200px;
+    max-width: 200px;
+    max-height: 200px;
+    
+
+    display: inline-block;
+    
+   
+    padding: 20px;
+    margin:auto;
+    margin-bottom: 10px;
+   
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.314);
+}
+
+.produtos:hover{
+    background-color: #ff6b6ec2;
+}
+
+.produtos > img {
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+.produtos > button{
+    margin-top: 20px;
+}
+
+footer{
+    background-color: var(--cor2);
+    font-family: cursive;
+    text-align: center;
+    font-size: 10px;
+
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 30px;
+
+    padding-top: absolute;
+}
+#hometext{
+    text-align: center;
+    font-size: larger;
+}
+
+#contatotext, #favtext{
+    text-align: left;
+    font-size: larger;
+}
+
+#textcenter{
+    text-align: left;
+}
+
+.feedback{
+    text-align: left;
+}
+
+.favlist{
+    text-align: left;
+}

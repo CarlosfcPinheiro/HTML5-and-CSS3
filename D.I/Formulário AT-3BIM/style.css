@@ -1,0 +1,107 @@
+/*
+Aluno: Carlos Fábio Cabral Pinheiro
+Série/Turma: 2°A 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-size: large;
+}
+
+@keyframes cores{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 50% 100%;
+    }
+}
+
+/*Barra de navegação*/
+nav{
+    background-color: #A3F783;
+}
+nav #nav-ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav #nav-ul li{
+    display: inline;
+}
+
+nav #nav-ul li a{
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+    display: inline-block;
+}
+nav #nav-ul li a:hover{
+    color: white;
+}
+
+/*aside*/
+aside{
+    display: inline-block;
+    padding-left: 15%;
+}
+
+aside form div{
+    padding: 5%;
+}
+
+.div-conic{
+    height: 30px;
+    width: 80px;
+    background-image: conic-gradient(#45F580 0deg 180deg,  #A451F5  180deg 360deg);
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 25px;
+
+}
+
+a{
+    margin-left: 23px;
+    text-decoration: none;
+    color: black;
+}
+
+.div-conic a:hover{
+    color: white;
+}
+
+/*Section*/
+#logo-img{
+    height: 250px;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+    padding-left: 20%;
+}
+
+section{
+    width: 50%;
+    height: 552px;
+    background-image: linear-gradient(45deg, #45F580, #A451F5, #6EF538, #F52620, #F1F52C);
+    display: inline-block;
+    animation: cores 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+.div-sec{
+    padding-left: 25%;  
+    padding-top: 20%;
+}
+
+
+
