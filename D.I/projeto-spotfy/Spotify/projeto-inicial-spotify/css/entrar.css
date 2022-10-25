@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+/*Header*/
+header{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+header #logo{
+    height: 50px;
+    margin-top: 1.5%;
+}
+
+/*Forms*/
+.inscrever_forms{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.inscrever_forms .input-box, .forgot, .reminder{
+    padding: 1%;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.inscrever_forms .input-box input{
+    padding: 0.8rem 1rem;
+    padding-right: 20rem;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.inscrever_forms .enviar-button{
+    margin-left: 150px;
+    padding-bottom: 5%;
+}
+
+.inscrever_forms .enviar-button button{
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.line{
+    height: 2px;
+    width: 50%;
+    background-image: linear-gradient(45deg, white, gray, white);
+    margin-left: 320px;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.subscribe .inscrever-button button{
+    color: gray;
+    width: 30%;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+/*Animações*/
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.subscribe .inscrever-button button:hover{
+    border-color: black;
+}
