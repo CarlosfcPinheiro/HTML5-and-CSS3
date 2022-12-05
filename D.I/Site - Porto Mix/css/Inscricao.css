@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Microbe&display=swap");
+@keyframes cores {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 130vh;
+  width: 100%;
+  background-color: #121212;
+  color: rgb(229, 229, 229);
+}
+
+.forms {
+  font-family: "Poppins", sans-serif;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forms .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.forms .text h1 {
+  font-family: "Rubik Microbe", cursive;
+  font-size: 46px;
+  font-weight: normal;
+}
+.forms .text h1 a {
+  text-decoration: none;
+  color: rgb(229, 229, 229);
+}
+.forms .text h2 {
+  text-align: center;
+  font-size: 14px;
+  background-image: linear-gradient(45deg, rgb(233, 30, 30), rgb(38, 38, 221));
+  background-size: 1000%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: cores 2s ease infinite;
+}
+.forms form {
+  font-size: 16px;
+  padding-top: 1%;
+}
+.forms form .input-box {
+  margin-top: 10px;
+}
+.forms form .input-box input {
+  padding: 2%;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 2px;
+}
+.forms form .instruments-group #instrument-name {
+  border-radius: 5px;
+  padding: 2%;
+  width: 190px;
+  border-style: none;
+}
+.forms button {
+  margin-left: 30%;
+  padding: 2%;
+  border-radius: 15px;
+  border-style: none;
+  width: 200px;
+  border-width: 0%;
+}
+.forms button a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#titulo:hover {
+  color: rgb(233, 30, 30);
+}
+
+#enviar:hover {
+  background-color: rgb(233, 30, 30);
+  cursor: pointer;
+}/*# sourceMappingURL=Inscricao.css.map */

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Microbe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@keyframes cores {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: rgb(229, 229, 229);
+  background-image: linear-gradient(to top, #121212, #313131);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+header p {
+  font-family: "Rubik Microbe", cursive;
+  font-size: 36px;
+}
+header p a {
+  text-decoration: none;
+  color: rgb(229, 229, 229);
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  padding-inline: 40px;
+  margin-inline: 10px;
+  border-bottom: 2px solid rgb(229, 229, 229);
+}
+header ul li a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: rgb(229, 229, 229);
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  padding: 10% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.content .text h1 {
+  line-height: 130%;
+  font-size: 32px;
+}
+.content .text h1 strong {
+  font-size: 40px;
+  background-image: linear-gradient(45deg, rgb(233, 30, 30), rgb(38, 38, 221));
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: cores 2s ease infinite;
+}
+.content .text #botao {
+  padding: 3% 6%;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  color: #121212;
+  cursor: pointer;
+}
+.content .imagem {
+  margin-right: 10%;
+}
+.content .imagem .figure {
+  display: inline-block;
+  padding-inline: 20px;
+}
+.content .imagem .figure .haste {
+  background-color: rgb(229, 229, 229);
+  height: 220px;
+  width: 8px;
+  margin-bottom: -40%;
+  background-size: 15000%;
+  background-image: linear-gradient(45deg, rgb(233, 30, 30), rgb(38, 38, 221));
+  animation: cores 2s ease infinite;
+}
+.content .imagem .figure .head {
+  background-color: rgb(229, 229, 229);
+  height: 80px;
+  width: 100px;
+  border-radius: 100%;
+  background-size: 400%;
+  background-image: linear-gradient(45deg, rgb(233, 30, 30), rgb(38, 38, 221));
+  animation: cores 2s ease infinite;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  height: 110vh;
+  max-width: 100%;
+  padding: 5% 10%;
+}
+
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #080808;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 42px;
+  padding-left: 10%;
+  display: flex;
+}
+footer .images {
+  height: 36px;
+  margin-inline: 10px;
+}
+footer p {
+  color: #6f6f6f;
+  margin-left: 20px;
+}
+
+a:hover {
+  color: rgb(233, 30, 30);
+  border: rgb(233, 30, 30);
+}
+
+#botao:hover {
+  background-color: rgb(233, 30, 30);
+}/*# sourceMappingURL=index.css.map */

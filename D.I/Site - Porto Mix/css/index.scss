@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+$padrao: rgb(229, 229, 229);
+$vermelho: rgb(233, 30, 30);
+$azul:  rgb(38, 38, 221);
+
+@mixin color-grad{
+    background-image: linear-gradient(45deg, $vermelho, $azul);
+}
+
+@mixin fonte-padrao{
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin fonte-footer{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes cores{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    color: $padrao;
+    background-image: linear-gradient(to top, #121212, #313131);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    p{
+        font-family: 'Rubik Microbe', cursive;
+        font-size: 36px;
+        a{
+            text-decoration: none;
+            color: $padrao;
+        }
+    }
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            padding-inline: 40px;
+            margin-inline: 10px;
+
+            border-bottom: 2px solid $padrao;
+            a{
+                @include fonte-padrao();
+                text-decoration: none;
+                color: $padrao;
+            }
+        }
+    }
+}
+
+.content{
+    font-family: 'Poppins', sans-serif;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: space-between;
+    .text{
+        h1{
+            line-height: 130%;
+            font-size: 32px;
+            strong{
+                font-size: 40px;
+                @include color-grad();
+
+                background-size: 300%;
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+
+                animation: cores 2s ease infinite;
+            }
+        }
+        #botao{
+            padding: 3% 6%;
+            border-radius: 10px;
+            border-style: none;
+            font-weight: bold;
+            color: #121212;
+            cursor: pointer;
+        }
+    }
+    .imagem{
+        margin-right: 10%;
+        .figure{
+            display: inline-block;
+            padding-inline: 20px;
+            .haste{
+                background-color: $padrao;
+                height: 220px;
+                width: 8px;
+                margin-bottom: -40%;
+                background-size: 15000%;
+                @include color-grad();
+                animation: cores 2s ease infinite;
+            }
+            .head{
+                background-color: $padrao;
+                height: 80px;
+                width: 100px;
+                border-radius: 100%;
+                background-size: 400%;
+                @include color-grad();
+                animation: cores 2s ease infinite;
+            }
+        }
+    }
+}
+
+.container{
+    @include fonte-padrao();
+    background-color: #121212;
+    height: 100vh;
+    max-width: 100%;
+    padding: 5% 10%;
+}
+
+#colector{
+
+    
+    background-color: $padrao;
+    color: black;
+
+    max-width: 300px;
+    min-height: 400px;
+
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #080808;
+    @include fonte-footer();
+    padding-top: 42px;
+    padding-left: 10%;
+    display: flex;
+    
+    .images{
+        height: 36px;
+        margin-inline: 10px;
+    }
+    p{
+        color: #6f6f6f;
+        margin-left: 20px;
+    }
+}
+
+
+a:hover{
+    color: $vermelho;
+    border: $vermelho;
+}
+
+#botao:hover{
+    background-color: $vermelho;
+}
+
+
+
