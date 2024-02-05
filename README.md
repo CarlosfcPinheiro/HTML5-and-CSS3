@@ -1,2 +1,11 @@
 # HTML5-and-CSS3
-Repositório para armazenar projetos e exercícios de estudos.
+Repositório voltado para o desenvolvimento de interfaces web com **HTML5 e CSS3**, os frameworks **Tailwind CSS** e **Bootsrap**, juntamente com a extensão **SASS**.
+
+Os projetos presentes nesse repositório seguem listados abaixo:
+- **Clone Spotify**
+    Realizado durante o ano letivo na ETEPD.
+    https://site-clone-spotify.vercel.app/
+
+- **Site Porto Mix**
+      Site destinado para a banda da ETEPD.
+      
