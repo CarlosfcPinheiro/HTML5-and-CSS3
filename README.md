@@ -10,5 +10,5 @@ Os projetos presentes nesse repositório seguem listados abaixo:
 Site destinado para a banda da ETEPD.
 
 ### Site de Vendas
-Atividade realizada durante o ano letivo na ETEPD
+Atividade em equipe de 3 pessoas realizada durante o ano letivo na ETEPD.
       
